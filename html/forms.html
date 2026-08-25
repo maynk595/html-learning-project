@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="submit.php" method="post"> <!-- Form tag is used to create a form in HTML. The 'action' attribute specifies the URL where the form data will be sent for processing, and the 'method' attribute specifies the HTTP method (GET or POST) to be used when submitting the form. -->
+        <label for="name">Name:</label> <!-- The <label> tag is used to define a label for an input element. The 'for' attribute should match the 'id' attribute of the corresponding input element. -->
+        <input type="text" id="name" name="name"><br><br> <!-- The <input> tag is used to create an input field in the form. The 'type' attribute specifies the type of input field (text, email, etc.), and the 'id' and 'name' attributes are used to identify the input field. -->
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message"></textarea><br><br> <!-- The <textarea> tag is used to create a multi-line text input field. -->
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br> 
+
+        <input type="submit" value="Submit"> <!-- value attribute defines the text displayed on the submit button -->
+    </form>
+
+    <br>
+
+    <form action="submit.python" method="post">
+        <label for="Username">Username : </label>
+        <input type="text" id="Username" name="username" placeholder="your name"><br><br>
+
+        password : <input type="password" name="password" placeholder="your password"><br><br> <!-- we write this as without using label but label is better for accessibility -->
+
+        <label for="date">Date:</label> <!--date is a type of input field that allows the user to select a date -->
+        <input type="date" id="date" name="date"><br><br>
+
+        <label for="color">Color:</label> <!--color is a type of input field that allows the user to select a color -->
+        <input type="color" id="color" name="color"><br><br>
+
+        <label for="file">File:</label> <!--file is a type of input field that allows the user to select a file -->
+        <input type="file" id="file" name="file"><br><br>
+
+        <label for="range">Range:</label> <!--range is a type of input field that allows the user to select a value within a range -->
+        <input type="range" id="range" name="range" min="0" max="100"><br><br>
+
+        <label for="checkbox">Checkbox:</label> <!--checkbox is a type of input field that allows the user to select one or more options -->
+        <input type="checkbox" id="checkbox" name="checkbox"><br>
+        <label for="checkbox2">Checkbox 2:</label>
+        <input type="checkbox" id="checkbox2" name="checkbox2"><br><br>
+
+        <label for="radio">Radio:</label> <!--radio is a type of input field that allows the user to select one option from a list -->
+        <input type="radio" id="radio" name="radio" value="option1"><br>
+        <label for="radio2">Radio 2:</label>
+        <input type="radio" id="radio2" name="radio" value="option2"><br><br>
+
+        <label for="select">selection:</label> <!--select is a type of input field that allows the user to select an option from a list -->
+        <select id="select" name="select">
+            <option value="option1">Option 1</option>
+            <option value="option2">Option 2</option>
+            <option value="option3">Option 3</option>
+        </select><br><br>
+
+        <label for="textarea">Textarea:</label> <!--textarea is a type of input field that allows the user to enter multi-line text -->
+        <textarea id="textarea" name="textarea"></textarea><br><br>
+
+        <iframe src="https://youtu.be/rklidcZ-aLU?si=REUr5UyI1Psmtvoe" title="HTML Tutorial" frameborder="1" width="600" height="400"></iframe>
+
+        <input type="submit" value="Press">
+    </form>
+
+</body>
+</html>
