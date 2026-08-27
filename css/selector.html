@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+    <style>
+        *{ /*This is a universal selector , This is not work on h1 , p , h2 because they have more specific selectors */
+            color:blueviolet;
+        }
+         h1{  /*This is a element selector */
+            color:aquamarine;
+        }
+         .first{ /*This is a class selector */
+            color:crimson;
+        }
+         #how{ /*This is a id selector */
+                color:darkorange;
+        }
+        .message{ /*This is a class selector */
+            color:darkgreen;
+        }
+        textarea[rows="5"]{ /*This is a attribute selector , it selects elements with a specific attribute and value */
+            color:darkblue;
+        }
+        textarea:hover{ /*This is a pseudo-class selector , it selects elements when the user hovers over them */
+            color:darkred;
+        }
+        textarea.message:hover{ /*This is a combining selector , it combines a class selector and a pseudo-class selector */
+            color:darkmagenta;
+        }
+        /* #important-text{
+            color:purple !important; This is a id selector with !important , it overrides all other styles 
+        } */
+    </style>
+</head>
+<body>
+    <h1>Hello, World!</h1>
+    <p class="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero laborum obcaecati cum animi velit harum necessitatibus natus eius rerum dolorum?
+    </p>
+
+    <h2 id="how">How are you?</h2>
+    <label for="message">Message:</label>
+    <textarea name="message" class="message" rows="5" cols="40" title="Enter your message here"></textarea>
+
+    <!-- <p id="important-text" style="color: darkred; font-weight: bold;">This is an important text.</p> -->
+</body>
+</html>
