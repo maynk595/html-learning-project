@@ -32,6 +32,12 @@
         /* #important-text{
             color:purple !important; This is a id selector with !important , it overrides all other styles 
         } */
+        h3, h4{ /*This is a group selector , it selects multiple elements */
+            color:darkcyan;
+        }
+        div p{ /*This is a descendant selector , it selects elements that are descendants of a specified element */
+            color:darkgoldenrod;
+        }
     </style>
 </head>
 <body>
@@ -44,5 +50,18 @@
     <textarea name="message" class="message" rows="5" cols="40" title="Enter your message here"></textarea>
 
     <!-- <p id="important-text" style="color: darkred; font-weight: bold;">This is an important text.</p> -->
+
+    <h3>Third Heading</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, repudiandae.</p>
+
+    <h4>Fourth Heading</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, repudiandae.</p>
+
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid, dignissimos. Fugit laudantium, repellendus voluptate eligendi ex provident laborum? Quis, et.</p>
+    </div>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, error. Ut, dolorum aut! Fugiat, error soluta alias hic velit laborum facilis vel sint amet tempore optio eaque distinctio consectetur ipsa!</p>
+    
 </body>
 </html>
