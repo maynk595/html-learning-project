@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assignment1.css"> <!--This is external CSS and external CSS has the lowest priority -->
+    <style>
+        div{
+            color:cadetblue;
+        }
+        div p{
+            color:darkorange;
+        }
+        #heading p{
+            color:darkmagenta;
+        }
+        .highlight{
+            color:darkgreen;
+        }
+        #heading h2{
+            color:darkcyan;
+        }
+        .First p, .Second p{
+            color:rgb(124, 7, 7);
+        }
+    </style>
+</head>
+<body>
+     <h1>Hello World</h1> <!--This is a heading element and it will be styled by the external CSS file -->
+
+     <!-- <p style="color: darkred;">
+         This is a paragraph with inline CSS. Inline CSS has the highest priority and will override any other styles applied to this element.
+     </p> -->
+
+     <div> <!--This is a div element and it will be styled by the internal CSS -->
+        <h2>Subheading</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate dignissimos incidunt impedit! Nam eaque error dolores reiciendis iure. Numquam nesciunt reiciendis eveniet architecto aspernatur? Officia ex rem reiciendis obcaecati exercitationem.
+        </p> <!--This is a paragraph element and it will be styled by the internal CSS using the descendant selector -->
+     </div>
+
+     <div id="heading">
+        <h2>Another Subheading</h2> <!--This is a heading element and it will be styled by the internal CSS using the id selector -->
+        <p class="highlight">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos, qui.</p> <!--This is a paragraph element and it will be styled by the internal CSS using the class selector -->
+     </div>
+
+    <div class="First"> <!--This is a div element with a class and it will be styled by the internal CSS using the class selector -->
+        <p>This is a paragraph inside the first div.</p>
+    </div>
+
+    <div class="Second"> <!--This is a div element with a class and it will be styled by the internal CSS using the class selector -->
+        <p>This is a paragraph inside the second div.</p>
+    </div>
+    
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores corporis commodi placeat doloremque tempora consequuntur amet ab esse optio consectetur. Ex est dolorum cupiditate consequatur ipsum. Sit obcaecati autem delectus rerum corrupti voluptatum accusantium aut dolore veritatis ea, praesentium minima provident quidem voluptate modi nemo tempore, voluptates minus sed cum. Distinctio laborum necessitatibus odit ut amet! Magni accusamus facilis rerum.
+    </p> <!--This is a paragraph element and it will be styled by the external CSS file -->
+
+</body>
+</html>
