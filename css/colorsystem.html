@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .first{
+            background-color:rgb(100, 60, 140);
+        }
+        .second{
+            background-color:#ff5733;
+        }
+        .third{
+            background-color:rgba(255, 100, 20, 0.8)
+        }
+        .fourth{
+            background-color: cadetblue;
+        }
+        #box1{
+            background-color: blue;
+        }
+        #box2{
+            background-color: brown;
+        }
+        #box3{
+            background-color: chartreuse;
+        }
+        .box{
+            height: 40px; width: 40px;
+        }
+        #back{
+            background-image: url("../images/batman.jpg") ;
+            height: 400px;
+            width: 400px;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        #box4{
+            background-color: darkcyan; visibility: hidden;
+        }
+        #box5{
+            background-color: darkkhaki; visibility: visible;
+        }
+        #box6{
+            background-color: blueviolet; visibility: collapse;
+        }
+    </style>
+</head>
+<body>
+    <div class="first">First Heading</div> <!--In this we use rgb(red,green,blue) model-->
+    <div class="second">Second Heading</div> <!-- In this we HEX Color Model-->
+    <div class="third">Third Heading</div> <!--In this we use rgba(red,green,blue,alpha) color model , alpha is for contrast range of alpha is 0 to 1-->
+    <div class="fourth">Fourth Heading</div> <!--In this we use simple name of the color-->
+    <hr>
+    <div id = "box1" class="box">Box 1</div><br><!--In this we specifiy the width and height of the boxes-->
+    <div id = "box2" class="box">Box 2</div><br>
+    <div id = "box3" class="box">Box 3</div><br>
+    <hr>
+    <div id="back">I'am Batman</div><!--In this we add a background image in this div-->
+    <hr>
+    <div id="box4" class="box">Box4</div>
+    <div id="box5" class="box">Box5</div>
+    <div id="box6" class="box">Box6</div>
+</body>
+</html>
