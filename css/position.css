@@ -1,0 +1,48 @@
+.box{
+    height: 70px;
+    width: 70px;
+    background-color: lightblue;
+    border:2px solid black;
+    margin: 20px;
+}
+#box1{
+    position: static; /* This is the default value , it means the element is positioned according to the normal document flow */
+}
+#box2{
+    position: relative; /* The element is positioned relative to its normal position */
+    top: 20px;
+    left: 90px;
+}
+#box3{
+    position: absolute; /* The element is positioned relative to its first positioned (not static) ancestor element */
+    top: 200px;
+    left: 200px;
+}
+#box4{
+    position: fixed; /* The element is positioned relative to the browser window */
+    top: 20px;
+    left: 90px;
+}
+.cont{
+    position:relative;
+}
+#box5 , #box6{
+    position: absolute; 
+    border: 3px solid black;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 25px;
+}
+#box5{
+    background-color: red;
+    top: 60px;
+    left: 20px;
+    z-index: 2; /* The z-index property specifies the stack order of an element. An element with a greater stack order is always in front of an element with a lower stack order */
+}
+#box6{
+    background-color: yellow;
+    top: 20px;
+    left: 60px;
+    z-index: 1;
+}
