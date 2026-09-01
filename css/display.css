@@ -1,0 +1,45 @@
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    text-align: center;
+    margin: 8px;
+    border: 3px solid black;
+    border-radius: 8px;
+
+    display: block; /* The default value of the display property is block. */
+}
+.box0{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    text-align: center;
+    margin: 8px;
+    border: 3px solid black;
+    border-radius: 8px;
+
+    display: inline; /*This value makes the element behave like an inline element. It does not start on a new line and only takes up as much width as necessary. */
+}
+.box00{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    text-align: center;
+    margin: 8px;
+    border: 3px solid black;
+    border-radius: 8px;
+
+    display: inline-block; /*This value makes the element behave like an inline element, but it allows you to set a width and height. */
+}
+.box000{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    text-align: center;
+    margin: 8px;
+    border: 3px solid black;
+    border-radius: 8px; 
+}
+#box11{
+    display: none; /*This value makes the element not appear on the page. It will not take up any space. */
+}
