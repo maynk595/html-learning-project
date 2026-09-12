@@ -1,0 +1,25 @@
+.container{
+    display: grid;
+    grid-template-columns: 50px 50px;
+    grid-template-rows: 50px 50px;
+}
+.item1{
+    grid-column:1/2;
+    grid-row:1/2;
+    background-color: rgb(231, 148, 148);
+}
+.item2{
+    grid-column:2/2;
+    grid-row:1/2;
+    background-color: rgb(148, 231, 148);
+}
+.item3{
+    grid-column:1/2;
+    grid-row:2/2;
+    background-color: rgb(148, 148, 231);
+}
+.item4{
+    grid-column:2/2;
+    grid-row:2/2;
+    background-color: rgb(231, 231, 148);
+}
