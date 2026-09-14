@@ -1,0 +1,25 @@
+.btn{
+    height: 40px;
+    width: 60px;
+    background-color: rgb(194, 243, 227);
+    border-radius: 10px;
+    border: 2px solid black;
+
+    /* transition-property: all;
+    transition-duration: 1s; */
+    /* transition-timing-function: ease-in-out; */
+    /* transition-timing-function:steps(3);
+    transition-delay: 0s; */
+
+    transition:all 1s ease-in-out 0s; /* it's a shorthand for those 4 property */
+}
+.btn:hover{
+    height: 50px;
+    width: 70px;
+    background-color: rgb(166, 166, 242);
+}
+/* .btn:active{
+    height: 40px;
+    width: 80px;
+    background-color: rgb(76, 55, 97);
+} */

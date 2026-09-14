@@ -1,0 +1,79 @@
+.box{
+    height: 70px;
+    width: 70px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(237, 162, 135);
+    position: relative;
+    top: 50px;
+    left: 50px;
+    text-align: center;
+    justify-content: center;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+#box1:hover{
+    background-color: aquamarine;
+    transform: rotate(45deg);
+}
+#box2:hover{
+    background-color: rgb(127, 142, 255);
+    transform: rotatex(45deg);
+}
+#box3:hover{
+    background-color: rgb(242, 127, 255);
+    transform: rotatey(45deg);
+}
+#box4:hover{
+    background-color: rgb(188, 222, 103);
+    transform: rotate(180deg);
+}
+#box01:hover{
+    background-color: rgb(102, 238, 108);
+    transform: scale(2);
+}
+#box02:hover{
+    background-color: rgb(54, 72, 207);
+    transform: scale(4);
+}
+#box03:hover{
+    background-color: rgb(223, 39, 244);
+    transform: scalex(2);
+}
+#box04:hover{
+    background-color: rgb(171, 232, 17);
+    transform: scaley(3);
+}
+#box001:hover{
+    background-color: rgb(234, 99, 41);
+    transform: translate(50px);
+}
+#box002:hover{
+    background-color: rgb(225, 15, 166);
+    transform: translate(50px , 50px);
+}
+#box003:hover{
+    background-color: rgb(7, 221, 21);
+    transform: translatex(50px);
+}
+#box004:hover{
+    background-color: rgb(9, 172, 180);
+    transform: translatey(50px);
+}
+#box0001:hover{
+    background-color: rgb(234, 99, 41);
+    transform: skew(45deg);
+}
+#box0002:hover{
+    background-color: rgb(225, 15, 166);
+    transform: skew(90deg);
+}
+#box0003:hover{
+    background-color: rgb(7, 221, 21);
+    transform: skew(180deg);
+}
+#box0004:hover{
+    background-color: rgb(9, 172, 180);
+    transform: skew(360deg);
+}
