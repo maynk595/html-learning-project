@@ -1,0 +1,1 @@
+// alert('Opening web page');
