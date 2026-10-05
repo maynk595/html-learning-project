@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bat, Ball and Stump</title>
+    <link rel="stylesheet" href="../css/Cricket-JSON-js.css">
+</head>
+<body>
+    <main class="game-container">
+        <h1>Bat Ball And Stump Game</h1>
+
+        <div class="controls">
+            <button id="btn1" class="btn move-btn" data-move="Bat" type="button">
+                <img src="../images/bat.png" alt="" aria-hidden="true">
+                <span>Bat</span>
+            </button>
+            <button id="btn2" class="btn move-btn" data-move="Ball" type="button">
+                <img src="../images/ball.png" alt="" aria-hidden="true">
+                <span>Ball</span>
+            </button>
+            <button id="btn3" class="btn move-btn" data-move="Stump" type="button">
+                <img src="../images/stump.png" alt="" aria-hidden="true">
+                <span>Stump</span>
+            </button>
+            <button id="btn4" class="btn reset-btn" type="button">Reset</button>
+        </div>
+
+        <div class="scoreboard">
+            <p><strong>You:</strong> <span id="user-move">-</span></p>
+            <p><strong>Computer:</strong> <span id="computer-move">-</span></p>
+            <p id="result" class="result-text" aria-live="polite">Let's play!</p>
+            <p><strong>Score:</strong> <span id="score">Wins: 0, Losses: 0, Ties: 0</span></p>
+        </div>
+    </main>
+    <script src="../js/cricket-JSON.js"></script>
+</body>
+</html>
